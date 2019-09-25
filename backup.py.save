@@ -1,0 +1,9 @@
+import sys
+import os
+import docker
+client = docker.from_env();
+for container in client.containers.list(all=True):
+   
+   if(sys.argv[0])
+       os.system("sh backup-container.sh "+ container.id + " " + contrainer.name + " "+ sys.argv[0])
+    os.system("sh backup-container.sh "+ container.id + " " + contrainer.name)
