@@ -1,4 +1,4 @@
-#!bin/bash
+#!bin/sh
 CONTAINER_ID=$1
 CONTAINER_NAME=$2
 PATH=$3
@@ -19,6 +19,4 @@ then
    $PATH = "./data-backup"
 fi
 
-/usr/bin/docker commit -p "$CONTAINER_ID"  "${CONTAINER_NAME}-backup"
-/usr/bin/docker save  -o "${CONTAINER_NAME}-backup.tar"  "${PATH}${CONTAINER_NAME}-backup"
-
+/usr/bin/docker 
