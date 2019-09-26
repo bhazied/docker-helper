@@ -1,4 +1,4 @@
 ./data-backup
-
+*.py.swp
 *.py$
 *.py.save
