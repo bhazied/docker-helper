@@ -16,6 +16,6 @@ fi
 
 if [ -z $PATH ]
 then
-   $PATH = "./"
+   $PATH = "./data-backup"
 fi
 

@@ -1,0 +1,4 @@
+./data-backup
+
+*.py$
+*.py.save
